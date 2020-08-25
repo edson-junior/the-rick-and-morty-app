@@ -1,0 +1,40 @@
+{
+  "name": "rick-and-morty-case",
+  "version": "1.0.0",
+  "description": "See the latest info about your favorite Rick and Morty characters!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/next -p 7777",
+    "build": "./node_modules/.bin/next build",
+    "start": "./node_modules/.bin/next start -p $PORT",
+    "test": "NODE_ENV=test jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-jest": "^26.3.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.3",
+    "enzyme-to-json": "^3.5.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "husky": "^4.2.5",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.2.13",
+    "prettier": "^2.1.0"
+  }
+}
