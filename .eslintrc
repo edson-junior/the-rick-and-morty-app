@@ -20,6 +20,8 @@
   },
   "rules": {
     "react/jsx-filename-extension": ["off"],
+    "react/react-in-jsx-scope": ["off"],
+    "react/destructuring-assignment": ["off"],
     "no-console": ["error"],
     "no-debugger": ["error"]
   }
