@@ -1,9 +1,10 @@
 import React from 'react'
+import * as S from './styled'
 
 const Header = () => (
-  <div>
-    <h1>Logo</h1>
-  </div>
+  <S.HeaderStyled>
+    <S.HeaderTitle>Rick and Morty App</S.HeaderTitle>
+  </S.HeaderStyled>
 )
 
 export default Header
