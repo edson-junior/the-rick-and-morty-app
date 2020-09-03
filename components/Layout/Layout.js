@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
-import Header from './Header/Header'
-import GlobalStyles from '../styles/globalStyles'
+import Header from '../Header/Header'
+import GlobalStyles from '../../styles/globalStyles'
 
 const Layout = ({ children }) => {
   return (
