@@ -16,8 +16,6 @@ Display the following:
 - Show all characters that partake in a given episode
 - Showing all information of a character (Name, species, gender, last location, dimension, etc)
 
-![Show me what you got!](https://media.giphy.com/media/26DOs997h6fgsCthu/giphy.gif)
-
 ---
 
 ## Run App
