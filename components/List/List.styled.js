@@ -10,8 +10,8 @@ export const CharWrapper = styled.div`
   padding-right: 30px;
   padding-bottom: 30px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  grid-gap: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 16px;
   max-width: ${(props) => props.theme.maxWidth};
   margin: 0 auto;
 `
