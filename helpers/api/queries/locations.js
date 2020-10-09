@@ -1,8 +1,8 @@
 import { gql } from '@apollo/client'
 
 export const RYCK_AND_MORTY_DATA = gql`
-  query getCharacters {
-    characters {
+  query getCharacters($page: Int!) {
+    characters(page: $page) {
       info {
         count
         pages
@@ -10,6 +10,7 @@ export const RYCK_AND_MORTY_DATA = gql`
         prev
       }
       results {
+        id
         name
         status
         species
