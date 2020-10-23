@@ -4,10 +4,10 @@
   "description": "See the latest info about your favorite Rick and Morty characters!",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/.bin/next -p 7777",
-    "build": "./node_modules/.bin/next build",
-    "start": "./node_modules/.bin/next start -p $PORT",
-    "test": "./node_modules/.bin/jest --watch"
+    "dev": "next -p 7777",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,8 @@
     "@apollo/client": "^3.1.3",
     "@apollo/react-hooks": "^4.0.0",
     "@apollo/react-ssr": "^4.0.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
     "apollo-boost": "^0.4.9",
     "babel-plugin-styled-components": "^1.11.1",
     "graphql": "^15.3.0",
@@ -30,9 +32,6 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.3.0",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.3",
-    "enzyme-to-json": "^3.5.0",
     "eslint": "^7.7.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",

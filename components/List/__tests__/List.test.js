@@ -1,8 +1,6 @@
-import { mount } from 'enzyme'
-import toJson from 'enzyme-to-json'
-import wait from 'waait'
+import { waitFor, render } from '@testing-library/react'
+import '@testing-library/jest-dom/extend-expect'
 import { MockedProvider } from '@apollo/client/testing'
-import { act } from 'react-dom/test-utils'
 import { RYCK_AND_MORTY_DATA } from '../../../helpers/api/queries/locations'
 import List from '../List'
 
@@ -1454,17 +1452,12 @@ describe('List', () => {
   ]
 
   it('renders without error', async () => {
-    const wrapper = mount(
+    const { getAllByRole } = render(
       <MockedProvider mocks={mocks} addTypename={false}>
         <List page={2} />
       </MockedProvider>,
     )
 
-    await act(async () => {
-      await wait()
-      wrapper.update()
-    })
-
-    expect(toJson(wrapper)).toMatchSnapshot()
+    await waitFor(() => expect(getAllByRole('main')).toMatchSnapshot())
   })
 })

@@ -18,7 +18,6 @@ const ItemsList = ({ item }) => {
     <CharItem>
       <CharItemImage src={image} alt="" />
       <ItemDetails>
-        <li />
         <li>
           <strong>Name: </strong>
           {name}

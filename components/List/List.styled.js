@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const CharWrapper = styled.div`
+export const CharWrapper = styled.main`
   color: #24292e;
   width: 100%;
   max-width: 1240px;
