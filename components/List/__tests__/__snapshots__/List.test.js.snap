@@ -1,1369 +1,210 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`List renders without error 1`] = `
-Array [
-  <main
-    class="Liststyled__CharWrapper-sc-1uysmnz-0 jxZONh"
+exports[`List should render the list without errors 1`] = `
+<main
+  class="Liststyled__CharWrapper-sc-1uysmnz-0 jxZONh"
+  data-testid="item-details"
+>
+  <div
+    class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
   >
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
+    <img
+      alt=""
+      class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
+      src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    />
+    <ul
+      class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
     >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Rick Sanchez
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Earth (Replacement Dimension)
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Alive
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Replacement Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (C-137) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E01 - Pilot
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
+      <li>
+        <strong>
+          Name: 
+        </strong>
+        Rick Sanchez
+      </li>
+      <li>
+        <strong>
+          Species: 
+        </strong>
+        Human
+      </li>
+      <li>
+        <strong>
+          Last known location: 
+        </strong>
+        Earth (Replacement Dimension)
+      </li>
+      <li>
+        <strong>
+          Status: 
+        </strong>
+        Alive
+      </li>
+      <li>
+        <strong>
+          Type: 
+        </strong>
+        unknown
+      </li>
+      <li>
+        <strong>
+          Gender: 
+        </strong>
+        Male
+      </li>
+      <li>
+        <strong>
+          Dimension: 
+        </strong>
+        Replacement Dimension
+      </li>
+      <li>
+        <strong>
+          Origin: 
+        </strong>
+        Earth (C-137) - Planet
+      </li>
+      <li>
+        <strong>
+          First seen in: 
+        </strong>
+        S01E01 - Pilot
+      </li>
+    </ul>
+  </div>
+  <div
+    class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
+  >
+    <img
+      alt=""
+      class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
+      src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+    />
+    <ul
+      class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
     >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Morty Smith
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Earth (Replacement Dimension)
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Alive
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Replacement Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (C-137) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E01 - Pilot
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
+      <li>
+        <strong>
+          Name: 
+        </strong>
+        Morty Smith
+      </li>
+      <li>
+        <strong>
+          Species: 
+        </strong>
+        Human
+      </li>
+      <li>
+        <strong>
+          Last known location: 
+        </strong>
+        Earth (Replacement Dimension)
+      </li>
+      <li>
+        <strong>
+          Status: 
+        </strong>
+        Alive
+      </li>
+      <li>
+        <strong>
+          Type: 
+        </strong>
+        unknown
+      </li>
+      <li>
+        <strong>
+          Gender: 
+        </strong>
+        Male
+      </li>
+      <li>
+        <strong>
+          Dimension: 
+        </strong>
+        Replacement Dimension
+      </li>
+      <li>
+        <strong>
+          Origin: 
+        </strong>
+        Earth (C-137) - Planet
+      </li>
+      <li>
+        <strong>
+          First seen in: 
+        </strong>
+        S01E01 - Pilot
+      </li>
+    </ul>
+  </div>
+  <div
+    class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
+  >
+    <img
+      alt=""
+      class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
+      src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+    />
+    <ul
+      class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
     >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Summer Smith
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Earth (Replacement Dimension)
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Alive
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Female
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Replacement Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (Replacement Dimension) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E06 - Rick Potion #9
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/4.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Beth Smith
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Earth (Replacement Dimension)
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Alive
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Female
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Replacement Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (Replacement Dimension) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E06 - Rick Potion #9
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/5.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Jerry Smith
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Earth (Replacement Dimension)
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Alive
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Replacement Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (Replacement Dimension) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E06 - Rick Potion #9
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/6.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Abadango Cluster Princess
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Alien
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Abadango
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Alive
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Female
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Abadango - Cluster
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S03E06 - Rest and Ricklaxation
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/7.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Abradolf Lincler
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Testicle Monster Dimension
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          Genetic experiment
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Testicle Monster Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (Replacement Dimension) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E10 - Close Rick-counters of the Rick Kind
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/8.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Adjudicator Rick
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Citadel of Ricks
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Dead
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          unknown - null
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S03E07 - The Ricklantis Mixup
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/9.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Agency Director
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Earth (Replacement Dimension)
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Dead
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Replacement Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (Replacement Dimension) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S03E03 - Pickle Rick
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/10.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Alan Rails
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Worldender's lair
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Dead
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          Superhuman (Ghost trains summoner)
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          unknown - null
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S03E04 - Vindicators 3: The Return of Worldender
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/11.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Albert Einstein
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Earth (Replacement Dimension)
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Dead
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Replacement Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (C-137) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S02E01 - A Rickle in Time
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/12.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Alexander
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Anatomy Park
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Dead
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Dimension C-137
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (C-137) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E03 - Anatomy Park
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/13.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Alien Googah
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Alien
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Earth (Replacement Dimension)
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Replacement Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          unknown - null
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S03E10 - The Rickchurian Mortydate
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/14.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Alien Morty
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Alien
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Citadel of Ricks
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          unknown - null
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E10 - Close Rick-counters of the Rick Kind
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/15.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Alien Rick
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Alien
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Citadel of Ricks
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          unknown - null
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E10 - Close Rick-counters of the Rick Kind
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/16.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Amish Cyborg
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Alien
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Earth (Replacement Dimension)
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Dead
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          Parasite
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Replacement Dimension
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          unknown - null
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S02E04 - Total Rickall
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/17.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Annie
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Anatomy Park
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Alive
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Female
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          Dimension C-137
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          Earth (C-137) - Planet
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E03 - Anatomy Park
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/18.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Antenna Morty
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Citadel of Ricks
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          Alive
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          Human with antennae
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          unknown - null
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E10 - Close Rick-counters of the Rick Kind
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/19.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Antenna Rick
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          Human with antennae
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          unknown - null
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E10 - Close Rick-counters of the Rick Kind
-        </li>
-      </ul>
-    </div>
-    <div
-      class="Liststyled__CharItem-sc-1uysmnz-1 eiYIjn"
-    >
-      <img
-        alt=""
-        class="Liststyled__CharItemImage-sc-1uysmnz-2 eGCCbw"
-        src="https://rickandmortyapi.com/api/character/avatar/20.jpeg"
-      />
-      <ul
-        class="Liststyled__ItemDetails-sc-1uysmnz-3 hTnONs"
-      >
-        <li />
-        <li>
-          <strong>
-            Name: 
-          </strong>
-          Ants in my Eyes Johnson
-        </li>
-        <li>
-          <strong>
-            Species: 
-          </strong>
-          Human
-        </li>
-        <li>
-          <strong>
-            Last known location: 
-          </strong>
-          Interdimensional Cable
-        </li>
-        <li>
-          <strong>
-            Status: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Type: 
-          </strong>
-          Human with ants in his eyes
-        </li>
-        <li>
-          <strong>
-            Gender: 
-          </strong>
-          Male
-        </li>
-        <li>
-          <strong>
-            Dimension: 
-          </strong>
-          unknown
-        </li>
-        <li>
-          <strong>
-            Origin: 
-          </strong>
-          unknown - null
-        </li>
-        <li>
-          <strong>
-            First seen in: 
-          </strong>
-          S01E08 - Rixty Minutes
-        </li>
-      </ul>
-    </div>
-  </main>,
-]
+      <li>
+        <strong>
+          Name: 
+        </strong>
+        Summer Smith
+      </li>
+      <li>
+        <strong>
+          Species: 
+        </strong>
+        Human
+      </li>
+      <li>
+        <strong>
+          Last known location: 
+        </strong>
+        Earth (Replacement Dimension)
+      </li>
+      <li>
+        <strong>
+          Status: 
+        </strong>
+        Alive
+      </li>
+      <li>
+        <strong>
+          Type: 
+        </strong>
+        unknown
+      </li>
+      <li>
+        <strong>
+          Gender: 
+        </strong>
+        Female
+      </li>
+      <li>
+        <strong>
+          Dimension: 
+        </strong>
+        Replacement Dimension
+      </li>
+      <li>
+        <strong>
+          Origin: 
+        </strong>
+        Earth (Replacement Dimension) - Planet
+      </li>
+      <li>
+        <strong>
+          First seen in: 
+        </strong>
+        S01E06 - Rick Potion #9
+      </li>
+    </ul>
+  </div>
+</main>
 `;

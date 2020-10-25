@@ -37,12 +37,13 @@ const Items = ({ page }) => {
           type="button"
           className="prev"
           style={{ display: info.prev === null ? 'none' : 'block' }}
+          data-testid="prev"
         >
           Prev
         </button>
       </Link>
 
-      <CharWrapper>
+      <CharWrapper data-testid="item-details">
         {characters?.map((item) => (
           <Item key={item.id} item={item} />
         ))}
@@ -59,6 +60,7 @@ const Items = ({ page }) => {
           type="button"
           className="next"
           style={{ display: info.next === null ? 'none' : 'block' }}
+          data-testid="next"
         >
           Next
         </button>
