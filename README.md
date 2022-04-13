@@ -35,9 +35,8 @@ The App will run on port 7777
 Here's what I used to build the app:
 
 - Next.js (React) with Server Side Rendering
-- Apollo Client
-- Styled Components
 - Eslint
 - Prettier
-- Jest & Enzyme (I would've used React Testing Library but there was no time to learn yet another tool)
-- Husky & Lint-staged for the pre-commit hook
+- Jest
+- Husky
+- Lint-staged
